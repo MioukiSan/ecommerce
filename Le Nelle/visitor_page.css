@@ -1,0 +1,171 @@
+.navbar-nav {
+    font-family: 'David Libre';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+
+
+
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        font-size: 16px;
+    }
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.nav-item:hover {
+    color: solid #ff1d8e;
+}
+
+.brandName {
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+    font-family: 'Moon Dance';
+    line-height: 45px;
+    letter-spacing: 0.1em;
+
+    background: linear-gradient(180deg, #F3065B 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container p {
+    margin-bottom: 0%;
+}
+
+.caption-top {
+    padding-top: 10px;
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+
+    color: #161515;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+    .caption-top {
+        padding-right: 20px;
+    }
+}
+
+
+.maincap1 {
+    letter-spacing: 0.1em;
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 80px;
+    background-color: #FF006B;
+    background-image: linear-gradient(45deg, #FF006B, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+
+    font-style: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    .maincap1 {
+        padding-right: 20px;
+    }
+}
+
+.lead {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        padding-right: 25px;
+    }
+}
+
+.ShopNow {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #717171;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 3.125rem;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #c2c2c2;
+    margin-top: 1rem;
+    padding: 0.625rem 1.875rem;
+}
+
+.ShopNow:hover {
+    border: 0.125rem solid #005baa;
+    color: #005baa;
+}
+
+.navbar-collapse {
+    background-color: transparent;
+    border-radius: 2px;
+    position: relative;
+
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse {
+        background-color: #fde6f6;
+        position: static;
+    }
+}
+
+.background-logo {
+    position: fixed;
+    top: -1rem;
+    left: -15rem;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.bg-text {
+    position: absolute;
+    top: 5px;
+    left: 40rem;
+    z-index: -1;
+    opacity: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-text {
+        left: 15rem;
+        /* new value for smaller screen */
+    }
+}

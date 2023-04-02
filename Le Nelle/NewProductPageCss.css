@@ -1,0 +1,266 @@
+.navbar-nav {
+    font-family: 'David Libre';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+
+
+
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        font-size: 16px;
+    }
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-item:hover {
+    color: solid #ff1d8e;
+}
+
+.brandName {
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+    font-family: 'Moon Dance';
+    line-height: 45px;
+    letter-spacing: 0.1em;
+
+    background: linear-gradient(180deg, #F3065B 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+    .brandName {
+        font-size: 16px;
+    }
+}
+
+.navbar-collapse {
+    background-color: transparent;
+    border-radius: 2px;
+    position: relative;
+
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse {
+        background-color: #fde6f6;
+        position: static;
+    }
+}
+
+.background-logo {
+    position: fixed;
+    top: -1rem;
+    left: -15rem;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.bg-text {
+    position: absolute;
+    top: 5px;
+    left: 40rem;
+    z-index: -1;
+    opacity: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-text {
+        left: 15rem;
+        /* new value for smaller screen */
+    }
+}
+
+.container-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aCarouselAuto {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.dropdown {
+    font-family: 'David Libre';
+    padding-left: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        padding-left: 2rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    text-align: left;
+}
+
+button {
+    padding: 0;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+
+}
+
+.product-details {
+    padding: 10px;
+}
+
+.product-title {
+    font-family: 'David Libre';
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.Label {
+    font-family: 'David Libre';
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.2;
+    background: linear-gradient(180deg, #F3065B 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.product-price {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 16px;
+    color: #000000;
+    text-align: end;
+}
+
+.price1 {
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: #ffd700;
+}
+
+.star {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 0%;
+}
+
+.rating-count {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.modal h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+
+    padding-top: 5px;
+    color: #000000;
+}
+
+.modal p {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+
+    padding-top: 5px;
+    color: #000000;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+
+.button {
+    word-spacing: 5px;
+}
